@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  saveNewAddress:function(){
+    wx.reLaunch({
+      url: '../Read_Page/Read_Page'
+    })
   }
 })

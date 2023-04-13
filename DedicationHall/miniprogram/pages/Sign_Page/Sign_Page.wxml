@@ -3,7 +3,7 @@
   <view class="container">
     <view >
       <canvas canvas-id="firstCanvas" 
-      style="height:{{(height*0.75)+'px'}};width:{{(width*0.9)+'px'}}" 
+      style="height:{{(height*0.7)+'px'}};width:{{(width*0.95)+'px'}}" 
       id='firstCanvas' 
       bindtouchstart="bindtouchstart" 
       bindtouchmove="bindtouchmove"

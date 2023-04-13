@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/Form_Page/Form_Page",
     "pages/router/Router",
     "pages/Sign_Page/Sign_Page",
-    "pages/Form_Page/Form_Page",
     "pages/Read_Page/Read_Page",
     "pages/END/END"
   ],

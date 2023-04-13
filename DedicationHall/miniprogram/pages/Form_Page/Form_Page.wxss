@@ -1,1 +1,107 @@
-/* pages/Form_Page/Form_Page.wxss */
+/* pages/Form_Page/Form_Page.wxss *//**index.wxss**/
+/*  */
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://s1.ax1x.com/2023/04/13/ppx69sg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  image{
+    position: absolute;
+    width: 100%;
+    height: 1183rpx;
+    z-index: -999;
+  }
+  
+  .ipt-wrap{
+    min-height: 100rpx;
+    line-height: 100rpx;
+  }
+  .ipt-wrap label{
+    min-width: 130rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-youjiantou{
+    position: relative;
+    top: 1rpx;
+  }
+  .textarea{
+    height: 100rpx;
+  }
+  
+  .wx-switch-input{
+    width:82rpx !important;
+    height:40rpx !important;
+  }
+  
+  .wx-switch-input::before{
+    width:80rpx !important;
+    height: 36rpx !important;
+  }
+  
+  .wx-switch-input::after{
+    width: 40rpx !important;
+    height: 36rpx !important;
+  }
+  .ipt-wrap:last-child{
+    border-bottom:none;
+  }
+  
+  .region{
+    width: 500rpx;
+    position: absolute;
+    left: 150rpx;
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200rpx 0;
+    box-sizing: border-box;
+  } 
+  view,text{font-size: 13px;}
+   
+  .bg-fff{background: #ffffff;}
+  .bg-btn{background: linear-gradient(to right, #1056b3c0, #0928b3);}
+  .font-w-b{font-weight: bold;}
+  .flex{display: flex;}
+  .ai-center{align-items: center;}
+  .f-wrap{flex-wrap: wrap;}
+  .fixed{position: fixed; top: 0; left: 0;}
+  .fix{position: fixed;}
+  .font14{font-size: 14px;}
+  .color-fff{color: #fff;}
+  .p-lr30{padding: 0 50rpx;}
+  .ml40{margin-left: 50rpx;}
+  ._w100{width: 60%;}
+  .border-t{
+    border-top:1px solid #e4e4e4;
+    position: fixed;
+    top: 200rpx;
+    border-radius: 30rpx;
+  }
+  .border-b{border-bottom:1px solid #e4e4e4;}
+  .combtn{
+    height: 100rpx;
+    text-align: center;
+    line-height: 100rpx;
+    margin: 0 auto;
+    border-radius: 18rpx;
+    position: fixed;
+    bottom: 470rpx;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+  
+  

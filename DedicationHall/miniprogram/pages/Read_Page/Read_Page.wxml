@@ -1,2 +1,41 @@
-<!--pages/Read_Page/Read_Page.wxml-->
-<text>pages/Read_Page/Read_Page.wxml</text>
+<!--pages/protocol/protocol.wxml-->
+<view class="container">
+  <view class="header">
+    <cover-image class="header-background" src="{{protocolHeaderBackground}}"></cover-image>
+  </view>
+  <view class="protocol">
+    <view class="content">
+      <text class="content-text">
+        {{protocol}}
+      </text>
+      <text class="content-text">
+        {{protocol}}
+      </text>
+    </view>
+    <view class="check-protocol">
+      <image  src="{{protocolUnselected}}"
+                class="check-box"
+                bind:tap="tapCheckBox"
+                wx:if="{{!isChecked}}"
+                >
+      </image>
+      <image  src="{{protocolSelected}}"
+                class="check-box"
+                bind:tap="tapCheckBox"
+                wx:if="{{isChecked}}"
+                >
+      </image>
+      <text class="check-text">勾选代表同意本协议的相关规定</text>
+    </view>
+    <view class="button">
+      <button 
+      style="width: 25%; margin-right: 20%; margin-top: 5%; background-color: #E4E9FF;"
+      class="nextPage"
+      bind:tap="toNextPage"
+      >确定</button>
+    </view>
+  </view>
+  <view class="bottom">
+    <cover-image class="bottom-background" src="{{protocolBottomBackground}}"></cover-image>
+  </view>
+</view>
