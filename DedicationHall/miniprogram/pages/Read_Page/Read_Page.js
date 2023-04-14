@@ -24,7 +24,7 @@ Page({
 
   toNextPage(event){
     if(this.data.isChecked){
-      wx.navigateTo({
+      wx.redirectTo({
         url: '../Sign_Page/Sign_Page'
       })
     }else{
