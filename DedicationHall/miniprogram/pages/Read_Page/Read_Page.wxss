@@ -63,5 +63,7 @@
   }
   
   .bottom {
-    margin-top: -30%;
+    /* margin-top: -22%; */
+    background-color: #86A8EF;
+    /* z-index: -999; */
   }
