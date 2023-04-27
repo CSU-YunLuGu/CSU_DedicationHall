@@ -1,9 +1,10 @@
 <!--index.wxml-->
 <view class="root" style="background-image: url({{BGI}});">
+  <image src="{{flowerImg}}" hidden="{{ifsigned}}" class="flower"></image>
   <view class="container">
     <view >
       <canvas canvas-id="firstCanvas" 
-      style="height:{{(height*0.7)+'px'}};width:{{(width*0.95)+'px'}}" 
+      style="height:{{(height*0.7)+'px'}};width:{{(width*0.95)+'px'}};;" 
       id='firstCanvas' 
       bindtouchstart="bindtouchstart" 
       bindtouchmove="bindtouchmove"
@@ -13,16 +14,9 @@
     </view>
     <view class="btn">
       <button class="submit" hidden="{{ifhidden}}" bindtap='submit' style="width: 90px;height:36px">
-        
       </button>
-      <button class="clear" hidden="{{ifhidden}}" style="width: 90px;height:36px" bindtap='clear'>
-        
+      <button class="clear" hidden="{{ifhidden}}" style="width: 90px;height:36px" bindtap='clear'>   
       </button>
-      
     </view>
-  
-  </view>
-  <view >
-
   </view>
 </view>

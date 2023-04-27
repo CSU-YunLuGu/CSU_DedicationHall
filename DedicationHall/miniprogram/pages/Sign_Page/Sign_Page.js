@@ -11,6 +11,7 @@ Page({
     ifhidden: '',
     BGI:'https://s1.ax1x.com/2023/04/12/ppXAqlq.png',
     ifsigned:0,
+    flowerImg: "https://s1.ax1x.com/2023/04/27/p9Qnc7D.png",
   },
   /**记录开始点 */
   bindtouchstart: function(e) {

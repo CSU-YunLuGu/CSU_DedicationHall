@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    flowerImg: "https://s1.ax1x.com/2023/04/27/p9Qnc7D.png",
   },
 
   /**

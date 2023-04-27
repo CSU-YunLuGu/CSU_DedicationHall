@@ -1,6 +1,6 @@
 /* pages/protocol/protocol.wxss */
 .container {
-    height: 180vh;
+    height: 800px;
   
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
   
   .content {
     width: 70%;
-    height: 78%;
+    height: 70%;
     padding: 20px;
   
     background-color: #fff;
@@ -30,9 +30,9 @@
   }
   
   .content-text {
-    text-align: center;
-    text-indent: 2em;
+    text-indent: 2rem;
     color: black;
+    margin-bottom: 20px;
   }
   
   .check-protocol {

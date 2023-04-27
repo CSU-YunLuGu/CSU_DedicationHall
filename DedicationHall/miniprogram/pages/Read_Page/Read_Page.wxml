@@ -5,12 +5,21 @@
   </view>
   <view class="protocol">
     <view class="content">
-      <text class="content-text">
-        {{protocol}}
-      </text>
-      <text class="content-text">
-        {{protocol}}
-      </text>
+      <p class="content-text">
+        在大学期间以及未来职场之中，我庄严承诺：
+      </p>
+      <p class="content-text">
+        一、认真贯彻执行党的路线、方针、政策，自觉遵守国家各项法律法规，严守道德底线和纪法红线。
+      </p>
+      <p class="content-text">
+        二、树立正确的人生观、价值观、利益观和权力观，时刻树牢廉洁从业意识，提高自我约束力，筑牢反腐倡廉思想防线。
+      </p>
+      <p class="content-text">
+        三、洁身自爱，严以律己，坚决抵制腐败行为和不正之风。不弄虚作假、不以权谋私，清清白白做人，干干净净做事。
+      </p>
+      <p class="content-text">
+        四、弘扬求真务实作风，发扬艰苦奋斗优良传统。牢记“知行合一、经世致用”校训精神，爱岗敬业，忠于职守，诚信做人，廉洁从业。
+      </p>
     </view>
     <view class="check-protocol">
       <image  src="{{protocolUnselected}}"
@@ -25,7 +34,7 @@
                 wx:if="{{isChecked}}"
                 >
       </image>
-      <text class="check-text">勾选代表同意本协议的相关规定</text>
+      <text class="check-text">勾选代表同意本协议相关规定</text>
     </view>
     <view class="button">
       <button 

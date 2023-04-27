@@ -39,3 +39,7 @@
     background-size:contain;
     background-position: center;
 }
+
+.flower {
+  margin: auto;
+}

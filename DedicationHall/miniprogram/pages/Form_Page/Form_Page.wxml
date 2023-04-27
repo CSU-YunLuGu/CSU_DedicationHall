@@ -16,7 +16,7 @@
       <input type="text" class="ml40 flex1"  placeholder="请输入专业班级" bindinput="getPhoneValue"></input>
     </view>
   </view>  
-   
+  <image src="{{flowerImg}}" class="flower"/>
   <view class="combtn font16 color-fff _w100 bg-btn" data-url="../addNewAddress/addNewAddress" bindtap="saveNewAddress">
     保存
   </view>
