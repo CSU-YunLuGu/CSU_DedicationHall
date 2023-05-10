@@ -1,7 +1,7 @@
 <!--pages/protocol/protocol.wxml-->
 <view class="container">
   <view class="header">
-    <cover-image class="header-background" src="{{protocolHeaderBackground}}"></cover-image>
+    <cover-image class="header-background"  src="{{protocolHeaderBackground}}" ></cover-image>
   </view>
   <view class="protocol">
     <view class="content">

@@ -1,6 +1,5 @@
 <!--index.wxml-->
 <view class="root" style="background-image: url({{BGI}});">
-  <image src="{{flowerImg}}" hidden="{{ifsigned}}" class="flower"></image>
   <view class="container">
     <view >
       <canvas canvas-id="firstCanvas" 

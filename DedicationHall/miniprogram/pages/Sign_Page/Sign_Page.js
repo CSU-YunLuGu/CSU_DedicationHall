@@ -9,7 +9,7 @@ Page({
     height: 0,
     width: 0,
     ifhidden: '',
-    BGI:'https://s1.ax1x.com/2023/04/12/ppXAqlq.png',
+    BGI:'https://s1.ax1x.com/2023/05/10/p9rnl6A.png',
     ifsigned:0,
     flowerImg: "https://s1.ax1x.com/2023/04/27/p9Qnc7D.png",
   },
@@ -18,7 +18,7 @@ Page({
     this.data.context.moveTo(e.changedTouches[0].x, e.changedTouches[0].y);
     this.setData({
       ifhidden:'hidden',
-      BGI:'https://s1.ax1x.com/2023/04/09/ppbuMAe.png',
+      BGI:'https://s1.ax1x.com/2023/05/10/p9rn9W4.png',
       ifsigned:1,
     })
   },
@@ -46,7 +46,7 @@ Page({
     this.data.context.setFontSize(20)
     this.data.context.draw()
     this.setData({
-      BGI:'https://s1.ax1x.com/2023/04/12/ppXAqlq.png',
+      BGI:'https://s1.ax1x.com/2023/05/10/p9rnl6A.png',
       ifsigned:0,
     })
   },

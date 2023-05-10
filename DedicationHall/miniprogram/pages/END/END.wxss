@@ -3,7 +3,7 @@ page{
   height: 100%;
 }
 .root{
-    background-color: #86a8ef;
+    background-color: #b5dbf2;
     position:relative;
     height: 100%;
 }

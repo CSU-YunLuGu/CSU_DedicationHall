@@ -9,14 +9,14 @@ App({
     // 登录
     wx.login({
       success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        // 发�? res.code 到后台换�? openId, sessionKey, unionId
       }
     })
   },
   globalData: {
     userInfo: null,
-    protocolHeaderBackground: "https://s1.ax1x.com/2023/04/10/ppbRHMj.png",
-    protocolBottomBackground: "https://s1.ax1x.com/2023/04/10/ppbRqLn.png",
+    protocolHeaderBackground: "https://s1.ax1x.com/2023/05/11/p9rnBXn.png",
+    protocolBottomBackground: "https://s1.ax1x.com/2023/05/11/p9ruI2Q.png",
     protocolUnselected: "https://s1.ax1x.com/2023/04/10/ppbRbss.png",
     protocolSelected: "https://s1.ax1x.com/2023/04/10/ppbRTzQ.png"
   }
